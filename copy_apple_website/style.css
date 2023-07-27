@@ -1,0 +1,62 @@
+div {
+    font-family: sans-serif;
+    background-color: #f2f2f4;
+    color: black;
+    font-size: 13px;
+    padding: 5px;
+ }
+ 
+ .content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: calc(100vh - 150px); /* Adjust this value to make room for the footer */
+ }
+ 
+ h1 {
+     font-size: 48px;
+     font-weight: bold;
+ }
+ 
+ h2 {
+     font-size: 25px;
+     font-weight: lighter;
+ }
+ 
+ nav {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ img {
+    width: 20px;
+ }
+ 
+ .items:hover {
+    background-color: gray;
+    opacity: 0.5;
+ }
+ 
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+
+ .content-image {
+    width: 95%;
+    max-width: 500px;
+    height: auto;
+ }
+ 
+ .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px; /* Adjust to your preference */
+    height: 50px; /* Adjust to your preference */
+ }
